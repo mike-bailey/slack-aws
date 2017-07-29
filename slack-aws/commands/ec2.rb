@@ -9,7 +9,7 @@ module SlackAws
         case arguments && arguments.shift
         when 'instances' then
           reap = Aws::EC2::Client.new
-          instances = reap.describe_instances()
+          instances = reap.describe_instances
           instanceprofile = "\n*Summary*:\n"
           instances.reservations.each do |reservation|
             reservation.instances.each do |instance|
