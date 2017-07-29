@@ -5,7 +5,6 @@ gem 'slack-ruby-bot'
 gem 'puma'
 gem 'sinatra'
 gem 'dentaku'
-gem 'faraday-middleware', '~> 0.11.0.1'
 gem 'aws-sdk', '~> 2'
 
 group :development, :test do
