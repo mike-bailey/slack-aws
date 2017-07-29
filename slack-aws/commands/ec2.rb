@@ -27,7 +27,7 @@ module SlackAws
             end
           end
         else
-          client.say(text: 'Syntax: aws s3 [command], need `aws help`? Message @awsbot help.', channel: data.channel)
+          client.say(text: 'Syntax: aws ec2 [command], need `aws help`? Message @awsbot help.', channel: data.channel)
         end
       end
     end
