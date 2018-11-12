@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 
 gem 'celluloid-io'
-gem 'slack-ruby-bot'
+gem 'slack-ruby-bot', '>= 0.9.0'
 gem 'puma'
 gem 'sinatra'
 gem 'dentaku'
