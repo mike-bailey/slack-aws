@@ -2,7 +2,7 @@ source 'http://rubygems.org'
 
 gem 'celluloid-io'
 gem 'slack-ruby-bot'
-gem 'puma'
+gem 'puma', '>= 3.12.2'
 gem 'sinatra'
 gem 'dentaku'
 gem 'aws-sdk', '~> 2'
